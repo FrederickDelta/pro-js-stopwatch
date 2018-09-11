@@ -1,0 +1,52 @@
+/* Sloppy CSS */
+
+html {
+    font-family: "helvetica neue";
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+div {
+    box-sizing: border-box;
+    width: 40rem;
+}
+
+#time {
+    font-size: 5rem;
+    font-weight: 400;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#buttons {
+    padding: 1rem;
+}
+
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 10rem;
+    line-height: 3rem;
+    margin: 1rem;
+}
+
+#start {
+    color: white;
+    background-color: #4d90fe;
+}
+
+#reset {
+    color: #555555;
+    background-color: #f5f5f5;
+}
+
+
+
